@@ -1,6 +1,8 @@
 import React from "react";
 import project1 from "../../public/apple.png";
 import project2 from "../../public/react.png";
+import project3 from "../../public/todo.png";
+import project4 from "../../public/form.png";
 
 export const Project = () => {
   return (
@@ -19,11 +21,15 @@ export const Project = () => {
               </a>
             </div>
             <div className="border-2 border-cyan-600 cursor-pointer hover:border-cyan-400 hover:scale-110 relative bg-gray-900 p-5 rounded-xl">
-              <a href="https://react-app-984e3.web.app/"><img src={project2} className="rounded" alt="" /></a>
+              <a href="https://react-todo12.web.app/"><img src={project3} className="rounded" alt="" /></a>
             </div>
             <div className="border-2 border-cyan-600 cursor-pointer hover:border-cyan-400 hover:scale-110 relative bg-gray-900 p-5 rounded-xl">
               <a href="https://react-app-984e3.web.app/"><img src={project2} className="rounded" alt="" /></a>
             </div>
+            <div className="border-2 border-cyan-600 cursor-pointer hover:border-cyan-400 hover:scale-110 relative bg-gray-900 p-5 rounded-xl">
+              <a href="https://loginformjawan.web.app/"><img src={project4} className="rounded" alt="" /></a>
+            </div>
+            
           </div>
         </div>
       </div>
